@@ -1,0 +1,168 @@
+#title{
+    background-color: #f77665;
+    color: white;
+}
+
+
+body{
+    font-family:Montserrat ;}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+
+   font-size: 4rem;
+   font-weight: bolder;
+   line-height: 3.5rem;
+   color:white;
+   
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar  */
+
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.phone-image{
+    height: 550px;
+    width: 300px;
+    transform: rotate(0deg);
+  
+   position: absolute;
+   right: 30%;
+ 
+}
+
+/* Title section */
+
+.custom-button{
+    margin: 5%  0 2% 3%;
+    text-align: center;
+}
+
+
+
+
+
+/* feature part */
+
+#features{
+    padding: 7% 15% ;
+    background-color: #fff;
+ position: relative;
+  
+}
+ 
+
+
+.feature-box{
+   padding: 5%;
+    text-align: center;
+}
+.features-h3{
+    padding-top: 10%;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+    
+}
+p{
+    color: #8f8f8f;
+}
+
+/* Testimonial section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-image{
+   margin: 5% auto;
+    border-radius: 100%;
+   
+    width: 15%;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.p-images{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+/* pricing section  */
+#pricing{
+    padding: 10%;
+    text-align: center;
+    background-color: #fff;
+}
+.pricing-section{
+    padding: 3% 2%;
+}
+
+/* call to action */
+#cta{
+    background-color: #f77665;
+    text-align: center;
+    padding: 7% 15% ;
+color:white;
+font-size: 3rem;
+font-weight: bold;
+line-height: 2;}
+
+.cta-button{
+    margin: 5px 10px;
+}
+
+/* footer section  */
+#footer{
+    background-color:white;
+    padding: 7% 15% ;
+text-align: center;
+}
+.foot-icon{
+    margin: 20px 10px;
+}
+   
+
+@media(max-width:1228px)
+{
+    #title{
+        text-align: center;
+    }
+    .phone-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
